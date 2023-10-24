@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { collection, addDoc } from "firebase/firestore"; 
 
 export default function Home() {
   return (
